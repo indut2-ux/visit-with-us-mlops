@@ -152,7 +152,9 @@ print(param_grid)
 # 9. CONFIGURE MLFLOW
 # =========================================================
 
-mlflow.set_tracking_uri("file:./mlruns")
+
+
+mlflow.set_tracking_uri("sqlite:///mlflow.db")
 
 mlflow.set_experiment(
     "Tourism_Package_Prediction"

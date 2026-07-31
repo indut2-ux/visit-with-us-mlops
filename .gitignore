@@ -5,3 +5,5 @@ __pycache__/
 
 tourism_project/model_building/train.csv
 tourism_project/model_building/test.csv
+
+mlflow.db
