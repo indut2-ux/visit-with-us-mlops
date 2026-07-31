@@ -304,7 +304,8 @@ with mlflow.start_run(run_name="Random_Forest_GridSearch"):
 
     mlflow.sklearn.log_model(
         sk_model=best_model,
-        name="random_forest_model"
+        name="random_forest_model",
+        serialization_format="cloudpickle"
     )
 
 
